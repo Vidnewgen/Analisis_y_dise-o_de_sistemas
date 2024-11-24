@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmacorp-m</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="footer/estilos.css">
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!--=============== CSS ===============-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+   <header class="header">
+      <nav class="nav container">
+         <div class="nav__data ">
+            <a href="index.html" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Pagina de Inicio" data-bs-placement="left" class="nav__logo">
+               <i class="ri-heart-pulse-fill"></i> Farmacorp 
+            </a>
+            
+            <div class="nav__toggle " id="nav-toggle">
+               <i class="ri-menu-line nav__burger"></i>
+               <i class="ri-close-line nav__close"></i>
+            </div>
+         </div>
+  
+         <!--=============== NAV MENU ===============-->
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                
+               <!--=============== DROPDOWN 2 ===============-->
+               <li class="dropdown__item">
+                 
+                <div data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Pagina de Generalidades" data-bs-placement="left" class="nav__link">
+                   Generalidades <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+                
+                <ul class="dropdown__menu">
+                   <li>
+                      <a href="generalidades.html#Introduccion" class="dropdown__link">
+                         <i class="ri-user-line"></i> Introduccion
+                      </a>                          
+                   </li>
+  
+                   <li>
+                      <a href="generalidades.html#Antecedentes" class="dropdown__link">
+                         <i class="ri-file-history-fill"></i> Antecedentes
+                      </a>
+                   </li>
+  
+                   <li>
+                      <a href="generalidades.html#PlanteamientodelProblema" class="dropdown__link">
+                         <i class="ri-road-map-fill"></i> Planteamiento del Problema
+                      </a>
+                   </li>
+                   <li>
+                    <a href="generalidades.html#ArboldePorblemas" class="dropdown__link">
+                       <i class="ri-node-tree"></i> Arbol de Porblemas
+                    </a>
+                 </li>
+                 <li>
+                  <a href="generalidades.html#Formulacion" class="dropdown__link">
+                     <i class="ri-node-home"></i> Formulacion Del Problema
+                  </a>
+               </li>
+                 <li>
+                  <a href="generalidades.html#PropositoEstudio" class="dropdown__link">
+                    <i class="ri-shut-down-line"></i> Proposito de Estudio
+                  </a>
+               </li>
+               <!--=============== DROPDOWN SUBMENU ===============-->
+               <li>
+                <a href="generalidades.html#medios" class="dropdown__link">
+                  <i class="ri-shut-down-line"></i> Medios e Instrumentos
+                </a>
+             </li>
+             <li>
+              <a href="generalidades.html#actividad" class="dropdown__link">
+                <i class="ri-shut-down-line"></i> Planificacion De actividades
+              </a>
+           </li>
+           <li>
+            <a href="generalidades.html#instituto" class="dropdown__link">
+              <i class="ri-shut-down-line"></i> Marco Institucional
+            </a>
+         </li>
+              
+                </ul>
+             </li>
+             
+  
+  
+               <!--=============== DROPDOWN 1 ===============-->
+               <li class="dropdown__item">
+                 
+                  <div data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Pagina de analisis Estructurado" data-bs-placement="left" class="nav__link">
+                     Analisis Estructurado  <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+  
+                  <ul class="dropdown__menu">
+            
+  
+          
+  
+                     <!--=============== DROPDOWN SUBMENU ===============-->
+                     <li class="dropdown__subitem">
+                        <div class="dropdown__link">
+                           <i class="ri-bar-chart-line"></i> Modelo Escencial<i class="ri-add-line dropdown__add"></i>
+                        </div>
+  
+                        <ul class="dropdown__submenu">
+                           <li>
+                              <a href="analisisEstructurado.html#Ambiental" class="dropdown__sublink">
+                                <i class="ri-planet-line"></i> Modelo Ambiental 
+                              </a>
+                           </li>
+   
+                           <li>
+                              <a href="analisisEstructurado.html#Comportamiento" class="dropdown__sublink">
+                                <i class="ri-checkbox-multiple-line"></i> Modelo de Comportamiento
+                              </a>
+                           </li>
+   
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               
+           
+  
+               <!--=============== DROPDOWN 2 ===============-->
+               <li class="dropdown__item">
+                 
+                  <div data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Pagina de Generalidades" data-bs-placement="left" class="nav__link">
+                      Diseño Orientado a Obejtos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+  
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="analisisOrientado.html#Negocio" class="dropdown__link">
+                           <i class="ri-user-line"></i> D. Casos de Uso/Negocio
+                        </a>                          
+                     </li>
+  
+                     <li>
+                        <a href="analisisOrientado.html#Sistema" class="dropdown__link">
+                           <i class="ri-lock-line"></i>  D. Casos de Uso/Sistema
+                        </a>
+                     </li>
+  
+                     <li>
+                        <a href="analisisOrientado.html#Secuencias" class="dropdown__link">
+                          <i class="ri-clockwise-line"></i> Diagrama Secuencias
+                        </a>
+                     </li>
+                     <li>
+                      <a href="analisisOrientado.html#Clases" class="dropdown__link">
+                        <i class="ri-bring-to-front"></i> Diagrama de Clases
+                      </a>
+                   </li>
+                  </ul>
+               </li>
+  
+               <li><a href="videoTuto.html" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Turial de Modelado/Prueba de Herramienta" data-bs-placement="left" class="nav__link">Video</a></li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+ <div class="contenidop">
+ <h1 class="t-stroke-shadowh2" style="text-align: center;">Video TUTORIAL <br> MODELADO EN  <br>lucidchart</h1>
+
+ <div class="container d-flex justify-content-center align-items-center cardi" style="height: 100vh; width: 90vw;">
+   <div class="card mb-3" style="width: 100%;">
+     <div class="row g-0">
+       <div class="col-md-4">
+         <img src="images/card1.jpg" class="img-fluid rounded-start" alt="...">
+       </div>
+       <div class="col-md-8">
+         <div class="card-body">
+           <h5 class="card-title">TUTORIAL:</h5>
+           <div class="ratio ratio-16x9">
+             <iframe src="https://www.youtube.com/embed/rIk6ckzxAr8?si=evcg80fFsg-jTI9n" 
+                      title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                      picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           </div>
+           <p class="card-text"><small class="text-muted">Video Ejemplo</small></p>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+<h1>Ejemplo de Funcionamiento de Agregar al carrito <br><br><br> </h1>
+<div id="menu" style=" width: 95%; height: 100vh; align-items: center; text-align: center; margin: auto; margin-bottom: 5%;"></div>
+<script>
+    // Carga el contenido del archivo menu.html en el div con id "menu"
+    document.getElementById("menu").innerHTML = '<object type="text/html" data="menu.html" style="width: 100%; height: 100%;"></object>';
+</script>
+
+
+ 
+ 
+ 
+
+ <!--=============== MAIN JS ===============-->
+ <script src="assets/js/main.js"></script>
+
+
+
+
+
+ 
+
+<!--::::Pie de Pagina::::::-->
+<footer class="pie-pagina">
+  <div class="grupo-1">
+      <div class="box">
+          <figure>
+              <a href="#">
+                  <img src="images/logo.jpeg" alt="Logo de SLee Dw">
+              </a>
+          </figure>
+      </div>
+      <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>Farmacorp, una destacada cadena de farmacias en Bolivia, ofrece un servicio de entrega a domicilio que busca facilitar el acceso a productos farmacéuticos y de cuidado personal. Su plataforma de delivery está diseñada para proporcionar comodidad y rapidez, permitiendo a los clientes realizar pedidos en línea y recibirlos en sus hogares.</p>
+      </div>
+      <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-youtube"></a>
+          </div>
+      </div>
+  </div>
+  <div class="grupo-2">
+      <small>&copy; 2024 <b>Farmacorp-Modelaje</b> - Todos los Derechos Reservados.</small>
+  </div>
+</footer>
+
+<!--::::Pie de Pagina::::::-->
+
+<script src="app.js"></script>
+<script>
+   const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+</script>
+<script>
+   const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+</script>
+</body>
+</html>

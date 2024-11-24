@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmacorp-m</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="footer/estilos.css">
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!--=============== CSS ===============-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+       <div class="nav__data ">
+          <a href="index.html" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Pagina de Inicio" data-bs-placement="left" class="nav__logo">
+             <i class="ri-heart-pulse-fill"></i> Farmacorp 
+          </a>
+          
+          <div class="nav__toggle " id="nav-toggle">
+             <i class="ri-menu-line nav__burger"></i>
+             <i class="ri-close-line nav__close"></i>
+          </div>
+       </div>
+
+       <!--=============== NAV MENU ===============-->
+       <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+              
+             <!--=============== DROPDOWN 2 ===============-->
+             <li class="dropdown__item">
+               
+              <div data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Pagina de Generalidades" data-bs-placement="left" class="nav__link">
+                 Generalidades <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+              
+              <ul class="dropdown__menu">
+                 <li>
+                    <a href="generalidades.html#Introduccion" class="dropdown__link">
+                       <i class="ri-user-line"></i> Introduccion
+                    </a>                          
+                 </li>
+
+                 <li>
+                    <a href="generalidades.html#Antecedentes" class="dropdown__link">
+                       <i class="ri-file-history-fill"></i> Antecedentes
+                    </a>
+                 </li>
+
+                 <li>
+                    <a href="generalidades.html#PlanteamientodelProblema" class="dropdown__link">
+                       <i class="ri-road-map-fill"></i> Planteamiento del Problema
+                    </a>
+                 </li>
+                 <li>
+                  <a href="generalidades.html#ArboldePorblemas" class="dropdown__link">
+                     <i class="ri-node-tree"></i> Arbol de Porblemas
+                  </a>
+               </li>
+               <li>
+                <a href="generalidades.html#Formulacion" class="dropdown__link">
+                   <i class="ri-node-home"></i> Formulacion Del Problema
+                </a>
+             </li>
+               <li>
+                <a href="generalidades.html#PropositoEstudio" class="dropdown__link">
+                  <i class="ri-shut-down-line"></i> Proposito de Estudio
+                </a>
+             </li>
+             <!--=============== DROPDOWN SUBMENU ===============-->
+             <li>
+              <a href="generalidades.html#medios" class="dropdown__link">
+                <i class="ri-shut-down-line"></i> Medios e Instrumentos
+              </a>
+           </li>
+           <li>
+            <a href="generalidades.html#actividad" class="dropdown__link">
+              <i class="ri-shut-down-line"></i> Planificacion De actividades
+            </a>
+         </li>
+         <li>
+          <a href="generalidades.html#instituto" class="dropdown__link">
+            <i class="ri-shut-down-line"></i> Marco Institucional
+          </a>
+       </li>
+            
+              </ul>
+           </li>
+           
+
+
+             <!--=============== DROPDOWN 1 ===============-->
+             <li class="dropdown__item">
+               
+                <div data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Pagina de analisis Estructurado" data-bs-placement="left" class="nav__link">
+                   Analisis Estructurado  <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+
+                <ul class="dropdown__menu">
+          
+
+        
+
+                   <!--=============== DROPDOWN SUBMENU ===============-->
+                   <li class="dropdown__subitem">
+                      <div class="dropdown__link">
+                         <i class="ri-bar-chart-line"></i> Modelo Escencial<i class="ri-add-line dropdown__add"></i>
+                      </div>
+
+                      <ul class="dropdown__submenu">
+                         <li>
+                            <a href="analisisEstructurado.html#Ambiental" class="dropdown__sublink">
+                              <i class="ri-planet-line"></i> Modelo Ambiental 
+                            </a>
+                         </li>
+ 
+                         <li>
+                            <a href="analisisEstructurado.html#Comportamiento" class="dropdown__sublink">
+                              <i class="ri-checkbox-multiple-line"></i> Modelo de Comportamiento
+                            </a>
+                         </li>
+ 
+                      </ul>
+                   </li>
+                </ul>
+             </li>
+             
+         
+
+             <!--=============== DROPDOWN 2 ===============-->
+             <li class="dropdown__item">
+               
+                <div data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Pagina de Generalidades" data-bs-placement="left" class="nav__link">
+                    Diseño Orientado a Obejtos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+
+                <ul class="dropdown__menu">
+                   <li>
+                      <a href="analisisOrientado.html#Negocio" class="dropdown__link">
+                         <i class="ri-user-line"></i> D. Casos de Uso/Negocio
+                      </a>                          
+                   </li>
+
+                   <li>
+                      <a href="analisisOrientado.html#Sistema" class="dropdown__link">
+                         <i class="ri-lock-line"></i>  D. Casos de Uso/Sistema
+                      </a>
+                   </li>
+
+                   <li>
+                      <a href="analisisOrientado.html#Secuencias" class="dropdown__link">
+                        <i class="ri-clockwise-line"></i> Diagrama Secuencias
+                      </a>
+                   </li>
+                   <li>
+                    <a href="analisisOrientado.html#Clases" class="dropdown__link">
+                      <i class="ri-bring-to-front"></i> Diagrama de Clases
+                    </a>
+                 </li>
+                </ul>
+             </li>
+
+             <li><a href="videoTuto.html" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Turial de Modelado/Prueba de Herramienta" data-bs-placement="left" class="nav__link">Video</a></li>
+          </ul>
+       </div>
+    </nav>
+ </header>
+ <div class="portada">
+  <img src="images/portadag.png" width="100%" alt="">
+   </div>
+     
+     <div class="contenidop" id="Introduccion">
+         <!--=============== SECCITION ===============-->
+         
+        <div class="row" >
+          <!-- Columna de texto con título y lorem ipsum -->
+          <div class="col-md-6 col-12">
+            <h2  class="t-stroke-shadowh2">Introduccion</h2>
+            <p>
+              El sistema de pedidos de medicamentos de FarmaCorp es una plataforma integral diseñada para gestionar de manera eficiente la solicitud, procesamiento y entrega de productos farmacéuticos. FarmaCorp, como una de las principales cadenas de farmacias en Bolivia, ha implementado este sistema con el objetivo de optimizar la experiencia del cliente y mejorar la logística interna de la empresa.
+              <br><br>
+
+              A través de este sistema, los usuarios pueden realizar pedidos de medicamentos de forma fácil y rápida, ya sea desde la comodidad de su hogar mediante la plataforma en línea o directamente en las sucursales físicas. El sistema se encarga de verificar la disponibilidad de los productos, procesar los pagos y coordinar la entrega, ya sea para recoger en tienda o mediante servicio a domicilio.  <br><br>
+                
+               
+                
+              Además, FarmaCorp ha integrado características avanzadas en su sistema, como la consulta de prescripciones médicas, recordatorios de reabastecimiento y promociones personalizadas, asegurando no solo la satisfacción del cliente sino también su adherencia a los tratamientos médicos.
+                
+                
+                
+                
+                
+                
+            </p>
+          </div>
+          <!-- Columna de imagen -->
+          <div class="col-md-6 col-12 d-flex justify-content-center">
+            <img  src="images/head-background.jpg" width="50%" class="img-fluid imager" alt="Descripción de la imagen">
+          </div>
+        </div>
+     <!--=============== SECCITION ===============-->
+<br><br><br><br>
+<br><br><br><br>
+<!--=============== SECCIÓN ===============-->
+<div class="row">
+    <h2 id="Antecedentes" class="t-stroke-shadowh2">Antecedentes</h2> 
+    
+    <!-- Columna de imagen a la izquierda -->
+    <div class="col-md-6 col-12 d-flex justify-content-center">
+       
+      <img src="images/antecedentes.jpg" class="img-fluid " style="width: 75%;" alt="Descripción de la imagen">
+    </div>
+    <!-- Columna de texto con título y acordeón a la derecha -->
+    <div class="col-md-6 col-12">
+      
+      <div class="accordion" id="accordionExample">
+        <!-- Contenido del acordeón aquí -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <strong>17 de abril de 1937</strong> 
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      A una cuadra de la plaza principal en el centro de la ciudad de Santa Cruz de la Sierra, nace la primera farmacia Gutiérrez, fundada por el bioquímico Osvaldo Gutiérrez. El dueño y fundador nunca imaginó que aquel emprendimiento se convertiría en lo que hoy es Farmacorp, la farmacia líder a nivel nacional.
+                      Décadas más tarde, las hijas de Osvaldo Gutiérrez – Lydia Rosario, Rose Marie (+), María Renee y María Eugenia- incursionaron en el rubro farmacéutico. Dos de ellas apoyaron en la administración de Farmacia Gutiérrez, mientras que las otras dos hermanas abrieron la Farmacia Santa María con el impulso de su progenitor en 1964.
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <strong>La tercera generación lidera la fusión
+                        </strong>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      La tercera generación lidera la fusión de las dos farmacias y conforman Farmacias Corporativas S.A., Farmacorp, que empieza a operar en el año 2000 con el desafío de modernizar el mercado a través del modelo de cadena de farmacias.
+
+                      Como uno de los principales logros de este periodo, se abren farmacias en Cochabamba y La Paz, se implementa el Pago de servicios básicos, se crea el Club de Fidelización, Farmaclub, y se inicia el servicio de entrega puerta a puerta, Farmamovil.
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong>Crecimiento y diversificación</strong>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Como resultado de la visión estratégica, en diciembre de 2019 se inaugura Farmacias Dr. Osvaldo, la cadena de bajo costo con el formato de las farmacias tradicionales de barrio, dirigida especialmente a atender los requerimientos de medicamentos y productos básicos de cuidado personal de la población en zonas periféricas de las principales ciudades del país; en noviembre de 2020 se inaugura el primer Amarket que da inicio a la cadena de supermercados que ofrecen las mejores marcas de cada categoría de productos en una experiencia de compras única, un enfoque totalmente orientado al cliente, con lo mejor de la marca madre que es Farmacorp, entre ellos los beneficios de las promociones y fidelización.
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <strong>Nace Nexocorp</strong>
+              </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                El siguiente gran salto ocurrió en 2022 con el nacimiento de Nexocorp, la marca paraguas para los negocios del grupo empresarial Gutiérrez, una estructura que permite ampliar y diversificar las unidades de negocio de manera planificada y estratégica.
+                Nexocorp en este momento incluye a las cadenas de farmacias Farmacorp y Farmacias Dr. Osvaldo, de supermercados Amarket, franquicias como Pizza Hut e inversiones inmobiliarias con la marca Bendita.
+                
+          </div>
+      </div>
+  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--=============== FIN DE SECCIÓN ===============-->
+  <br><br><br><br>
+<br><br><br><br>
+ <!--=============== SECCITION ===============-->
+         
+ <div class="row " id="PlanteamientodelProblema">
+    <!-- Columna de texto con título y lorem ipsum -->
+    <div class="col-md-6 col-12">
+      <h2  class="t-stroke-shadowh2" >Planteamiento del Problema</h2>
+      <p>Farmacorp, una de las cadenas de farmacias más grandes de Bolivia, enfrenta desafíos en la gestión eficiente de los pedidos de medicamentos a 
+        través de su sitio web oficial. El sistema actual no puede manejar un gran volumen de pedidos, lo que resulta en retrasos, errores y descontento 
+        de los clientes. Los problemas incluyen el seguimiento 
+        inexacto de los pedidos, tiempos de entrega prolongados y dificultades en la gestión de los niveles de inventario, lo que resulta en desabastecimiento o sobrestock. <br>
+        <strong>Características clave:</strong>  
+      </p>
+      <div class="cardss">
+        <div class="card" style="width: 18rem; margin: 0.5vw;">
+          <img src="images/card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"> <strong>Seguimiento preciso de pedidos:</strong>  <br> Crear una interfaz amigable para el usuario para que los clientes puedan rastrear sus pedidos, reduciendo las consultas de atención al cliente y mejorando la transparencia.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 0.5vw;">
+          <img src="images/card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"> <strong>Escalabilidad:</strong>  <br> Diseñar un sistema que pueda crecer con Farmacorp a medida que expanden su presencia en línea y su oferta de productos.</p>
+          </div>
+        </div>
+        </div>
+    </div>
+    <!-- Columna de imagen -->
+    <div class="col-md-6 col-12 d-flex justify-content-center">
+      <div class="cardss"  >
+      <div class="card" style="width: 18rem; margin: 0.5vw;">
+        <img src="images/card.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"> <strong>Procesamiento eficiente de pedidos:</strong>  <br> Implementar un sistema robusto que pueda manejar un alto volumen de pedidos, garantizando un procesamiento rápido y preciso.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 0.5vw;">
+        <img src="images/card.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"> <strong>Gestión de inventario en tiempo real:</strong>  <br> Desarrollar un sistema que actualice los niveles de inventario en tiempo real, evitando desabastecimientos y sobrestock.</p>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+<!--=============== FIN DE LA SECCITION ===============-->  
+<br><br><br><br>
+<br><br><br><br>
+
+
+<!--=============== SECCIÓN ===============-->
+<div class="row">
+  <h2 id="ArboldePorblemas" class="t-stroke-shadowh2">Arbol de problemas</h2> 
+  
+  <!-- Columna de imagen a la izquierda -->
+  <div class="col-md-6 col-12 d-flex justify-content-center">
+     
+    <img src="images/arbol.jpeg" class="img-fluid " style="width: 75%;" alt="Descripción de la imagen">
+  </div>
+  <!-- Columna de texto con título y acordeón a la derecha -->
+  <div class="col-md-6 col-12">
+    
+    <div class="accordion" id="accordionExample">
+      <!-- Contenido del acordeón aquí -->
+     <strong><h2></h2></strong> 
+      
+  </div>
+</div>
+</div>
+<br><br><br><br>
+<!--=============== FIN DE SECCIÓN ===============-->
+  
+  
+<!--=============== SECCITION ===============-->
+         
+<div id="Formulacion" class="row" >
+    <!-- Columna de texto con título y lorem ipsum -->
+    <div class="col-md-6 col-12">
+      <h2  class="t-stroke-shadowh2" >Formulación del problema</h2>
+      <p><strong>Título del problema:</strong> "Ineficiencia en la Gestión de Pedidos en Línea de Farmacorp"
+        Descripción del problema: Farmacorp enfrenta serios desafíos en la gestión eficiente de los pedidos de medicamentos a través de su plataforma en línea. El sistema actual no es capaz de manejar un gran volumen de pedidos, lo que resulta en retrasos, errores y descontento por parte de los clientes. Los problemas específicos incluyen el seguimiento inexacto de los pedidos, tiempos de entrega prolongados y dificultades en la gestión de los niveles de inventario, lo que provoca tanto desabastecimiento como sobrestock. Estos problemas no solo afectan la satisfacción del cliente, sino que también incrementan los costos operativos y dañan la reputación de la empresa.
+        
+          
+          
+      </p>
+    </div>
+    <!-- Columna de imagen -->
+    <div class="col-md-6 col-12 d-flex justify-content-center">
+      <img src="images/formm.jpg" width="50%" class="img-fluid " alt="Descripción de la imagen">
+    </div>
+  </div>
+  <br><br><br><br>
+<!--=============== FIN DE LA SECCITION ===============-->  
+<!--=============== SECCITION ===============-->
+         
+<div class="row" >
+  <div class="col-md-6 col-12 d-flex justify-content-center">
+    <img src="images/formg.jpg" width="50%" class="img-fluid " alt="Descripción de la imagen">
+  </div>
+  <!-- Columna de texto con título y lorem ipsum -->
+  <div class="col-md-6 col-12">
+    <h2  class="t-stroke-shadowh2" id="PropositoEstudio">Propósito del estudio
+    </h2>
+    <p><strong>Propósito del estudio</strong> 
+      El propósito de estudio es investigar y dar el análisis respectivo a aspectos clave en las operaciones de  
+      venta de Farmacorp, una farmacia en línea, con la misión de realizar ventas de medicamentos y productos de cuidado personal vía online.
+      <br><strong>Objetivos Generales: </strong><br>
+      El objetivo general de este trabajo es realizar un análisis del sistema de almacén de una farmacia, con el fin de identificar las fortalezas y debilidades del sistema actual y proponer mejoras de funcionamiento y comunicación.
+    <br> <strong> Objetivos Específicos: </strong><br>
+      Evaluar las fortalezas y debilidades del sistema de pedidos actual de FarmaCorp.
+      Identificar los principales puntos de fricción y las áreas que requieren mejoras.
+      Identificar los problemas y oportunidades de mejora del sistema actual.
+      Modelar y diseñar modelos de sistemas para obtener un sistema más óptimo.
+      
+    </p>
+  </div>
+  <!-- Columna de imagen -->
+  
+</div>
+<br><br><br><br>
+<!--=============== FIN DE LA SECCITION ===============--> 
+
+<br><br><br><br>
+      
+
+<!--=============== SECCITION ===============-->
+         
+<div class="row" >
+    <!-- Columna de texto con título y lorem ipsum -->
+    <div class="col-md-6 col-12">
+      <h2  class="t-stroke-shadowh2" id="medios"> Medios e instrumentos.-</h2>
+      <p> <strong>Observación:</strong> <br>Se ha procedido a visitar la farmacia ‘FARMACORP’ con el propósito de conocer el f
+        lujo de la información a través de la observación de los procesos que involucran productor, clientes, método de pedidos de productos. <br>
+          <strong>Entrevistas:</strong> <br> Los dispositivos físicos necesarios para ejecutar y almacenar el sistema, como servidores, computadoras, y posiblemente dispositivos móviles si el sistema 
+          incluye funcionalidades móviles. Distribuir una encuesta a todos los empleados y analizar las respuestas usando software de análisis estadístico <br>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-dark" type="button"><a target="_blank" download="Entrevistas" href="images/Entrevistas.pdf">DESCARGA ARCHIVO DE ENTREVISTAS</a></button>
+            
+          </div>
+          
+      </p>
+    </div>
+    <!-- Columna de imagen -->
+    <div class="col-md-6 col-12 d-flex justify-content-center">
+      <img src="images/wer.jpg" width="50%" class="img-fluid rounded-circle" alt="Descripción de la imagen">
+    </div>
+  </div>
+<!--=============== FIN DE LA SECCITION ===============-->  
+<br><br><br><br>
+<br><br><br><br>
+      
+
+
+<!--=============== SECCITION ===============-->
+         
+<div class="row" >
+    <!-- Columna de texto con título y lorem ipsum -->
+    <div class="col-md-6 col-12">
+      <h2  class="t-stroke-shadowh2 " id="actividad">Planificación de actividades</h2>
+      <p>El sistema de gestión de Farmacorp para la venta de medicamentos, existe la planificación de actividades divididas en 4 fases: Planificación, Diseño, Desarrollo
+         y Pruebas, asimismo, se trabajará en el sistema desde el mes de abril hasta el mes de septiembre. Como se muestra en la siguiente imagen:
+          
+          
+          
+          
+          
+          
+      </p>
+    </div>
+    <!-- Columna de imagen -->
+    <div class="col-md-6 col-12 d-flex justify-content-center">
+      <img src="images/act.png" width="100%" class="img-fluid " alt="Descripción de la imagen">
+    </div>
+  </div>
+<!--=============== FIN DE LA SECCITION ===============-->  
+      
+<br><br><br><br>
+<br><br><br><br>
+<!--=============== SECCITION ===============-->
+         
+<div class="row" >
+    <!-- Columna de texto con título y lorem ipsum -->
+    <div class="col-md-6 col-12">
+      <h2  class="t-stroke-shadowh2" id="instituto">Marco institucional</h2>
+      <p><strong> Misión</strong><br>
+        Somos Farmacorp, un equipo de colaboradores comprometidos altamente profesionales que apoyados en innovación constante y tecnología avanzada trabajamos unidos, generando experiencias memorables que ayudan a las familias a llevar una vida feliz y saludable.
+        <br><strong> Visión</strong> <br>
+        Ser reconocidos globalmente como un modelo de éxito que contribuye al bienestar diario de las personas con el mejor servicio al cliente.
+        Pilares
+        Bienestar humano
+        Integridad
+        Responsabilidad <br>
+        <strong>Valores</strong> <br>
+        Espíritu de superación
+        <br>
+        Integridad <br>
+        Vocación de Servicio <br>
+        Compromiso <br>
+        Escucha Activa 
+         <br><strong>Organigrama institucional :</strong> <br>
+          
+          
+          
+          
+          
+          
+          
+      </p>
+    </div>
+    <!-- Columna de imagen -->
+    <div class="col-md-6 col-12 d-flex justify-content-center">
+      <img src="images/orga.png" width="100%" class="img-fluid " alt="Descripción de la imagen">
+    </div>
+  </div>
+<!--=============== FIN DE LA SECCITION ===============-->  
+      
+
+
+      
+     </div>   
+     <!--::::Pie de Pagina::::::-->
+<footer class="pie-pagina">
+  <div class="grupo-1">
+      <div class="box">
+          <figure>
+              <a href="#">
+                  <img src="images/logo.jpeg" alt="Logo de SLee Dw">
+              </a>
+          </figure>
+      </div>
+      <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>Farmacorp, una destacada cadena de farmacias en Bolivia, ofrece un servicio de entrega a domicilio que busca facilitar el acceso a productos farmacéuticos y de cuidado personal. Su plataforma de delivery está diseñada para proporcionar comodidad y rapidez, permitiendo a los clientes realizar pedidos en línea y recibirlos en sus hogares.</p>
+      </div>
+      <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-youtube"></a>
+          </div>
+      </div>
+  </div>
+  <div class="grupo-2">
+      <small>&copy; 2024 <b>Farmacorp-Modelaje</b> - Todos los Derechos Reservados.</small>
+  </div>
+</footer>
+
+<!--::::Pie de Pagina::::::-->
+  
+  
+
+ <!--=============== MAIN JS ===============-->
+ <script src="assets/js/main.js"></script>
+
+<script>const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#navbar-example'
+})</script>
+
+
+
+ 
+ 
+
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+ </script>
+</body>
+</html>
